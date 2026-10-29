@@ -16,7 +16,7 @@ Entre a **Todo junto** (`/oficina`): el kiosco, la ventanilla y la sala están u
 
 Para verlo como en una oficina real, abra el kiosco, la ventanilla y la sala en pestañas separadas: se mueven juntas.
 
-Si quiere ver el panel con números de verdad, en la portada está el botón "Probar con una mañana de ejemplo", que llena el día con más de 80 turnos.
+Si quiere ver el panel con números de verdad, en la portada está el botón "Ver una mañana de ejemplo", que llena el día con más de 80 turnos.
 
 ## Las pantallas
 
