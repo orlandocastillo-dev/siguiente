@@ -123,12 +123,12 @@ export function Inicio() {
             pantalla y por voz, al instante.
           </p>
           <div className="portada__botones">
-            <button className="boton boton--ambar" onClick={cargarEjemplo}>
-              Probar con una mañana de ejemplo
-            </button>
-            <Link className="boton boton--borde" to="/kiosco">
-              Sacar un turno
+            <Link className="boton boton--ambar" to="/oficina">
+              Probarlo en una sola pantalla
             </Link>
+            <button className="boton boton--borde" onClick={cargarEjemplo}>
+              Ver una mañana de ejemplo
+            </button>
           </div>
           <dl className="portada__datos">
             <div>
@@ -167,29 +167,24 @@ export function Inicio() {
 
       <section className="seccion seccion--probar" id="probar">
         <p className="sobre sobre--ambar">02 Cómo probarlo</p>
-        <h2>Ábralo en dos pestañas y vea cómo se mueve la fila</h2>
+        <h2>Saque un turno y llámelo, todo en la misma pantalla</h2>
         <ol className="pasos">
           <li>
             <b>1</b>
             <p>
-              Abra la <Link to="/sala" target="_blank">sala de espera</Link> en una pestaña o en otra ventana, y toque “Activar el sonido”.
+              Entre a <Link to="/oficina">todo junto</Link>: ahí están el kiosco, la ventanilla y la sala, una al lado de la otra.
             </p>
           </li>
           <li>
             <b>2</b>
-            <p>
-              En otra pestaña saque un turno en el <Link to="/kiosco" target="_blank">kiosco</Link>.
-            </p>
+            <p>Toque un servicio en el kiosco. El turno aparece en la fila de la ventanilla.</p>
           </li>
           <li>
             <b>3</b>
-            <p>
-              Entre a la <Link to="/ventanilla" target="_blank">ventanilla</Link>, escoja un módulo y llame al siguiente. La sala lo anuncia en ese mismo
-              momento.
-            </p>
+            <p>Toque “Llamar al siguiente”. La sala lo anuncia en ese mismo momento, y con voz si enciende el sonido.</p>
           </li>
         </ol>
-        <p className="nota nota--clara">Todo se guarda en este navegador: puede cerrar y volver, y cada día la fila arranca en cero.</p>
+        <p className="nota nota--clara">Si quiere verlo como en una oficina real, abra cada pantalla en su propia pestaña: se mueven juntas. Todo se guarda en este navegador y cada día la fila arranca en cero.</p>
       </section>
 
       <section className="seccion" id="dentro">

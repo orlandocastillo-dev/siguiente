@@ -8,14 +8,19 @@ Lo hice para practicar estado compartido en tiempo real: cuatro pantallas que ti
 
 ## Cómo probarlo
 
-1. Abra la **sala de espera** en una pestaña (o mejor, en otra ventana al lado) y toque "Activar el sonido de los llamados".
-2. En otra pestaña entre al **kiosco** y saque un par de turnos.
-3. Vaya a la **ventanilla**, escoja un módulo y llame al siguiente. La sala lo anuncia en ese mismo momento.
+Entre a **Todo junto** (`/oficina`): el kiosco, la ventanilla y la sala están una al lado de la otra, y arriba va diciendo qué hacer.
+
+1. Toque un servicio en el kiosco para sacar un turno.
+2. Toque "Llamar al siguiente" en la ventanilla.
+3. Mire la sala: lo anuncia en ese mismo momento, y con voz si enciende el sonido.
+
+Para verlo como en una oficina real, abra el kiosco, la ventanilla y la sala en pestañas separadas: se mueven juntas.
 
 Si quiere ver el panel con números de verdad, en la portada está el botón "Probar con una mañana de ejemplo", que llena el día con más de 80 turnos.
 
 ## Las pantallas
 
+- `/oficina`: las tres pantallas en una sola vista, para probarlo sin saltar entre pestañas.
 - `/kiosco`: se escoge el servicio (caja, asesoría, radicación o preferencial) y sale el tiquete con cuánta gente hay adelante y cuánto se demora.
 - `/ventanilla?m=2`: llamar al siguiente, volver a llamar, empezar la atención o marcar que no se presentó. También con el teclado: N y R.
 - `/sala`: el turno actual en fichas tipo aeropuerto, los últimos llamados y la espera por servicio.

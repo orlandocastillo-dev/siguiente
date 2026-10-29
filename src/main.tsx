@@ -8,10 +8,12 @@ import { Kiosco } from "./paginas/Kiosco";
 import { Ventanilla } from "./paginas/Ventanilla";
 import { Sala } from "./paginas/Sala";
 import { Panel } from "./paginas/Panel";
+import { Oficina } from "./paginas/Oficina";
 import "./estilos.css";
 
 const router = createBrowserRouter([
   { path: "/", element: <Inicio /> },
+  { path: "/oficina", element: <Oficina /> },
   { path: "/kiosco", element: <Kiosco /> },
   { path: "/ventanilla", element: <Ventanilla /> },
   { path: "/sala", element: <Sala /> },

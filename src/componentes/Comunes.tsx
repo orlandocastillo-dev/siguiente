@@ -17,6 +17,7 @@ export function Logo({ claro = false }: { claro?: boolean }) {
 /** La barra de arriba de las pantallas de trabajo, para moverse entre ellas. */
 export function BarraPantallas() {
   const enlaces = [
+    ["/oficina", "Todo junto"],
     ["/kiosco", "Kiosco"],
     ["/ventanilla", "Ventanilla"],
     ["/sala", "Sala de espera"],
