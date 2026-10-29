@@ -33,6 +33,20 @@ export function Sala() {
       <header className="sala__cabeza">
         <Logo claro />
         <p className="sala__sede">{OFICINA}</p>
+        {!sonido && (
+          <button
+            className="sala__sonido"
+            onClick={() => {
+              activarSonido();
+              setSonido(true);
+            }}
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 9v6h4l5 4V5L8 9zM16 9a4 4 0 010 6M18.5 6.5a8 8 0 010 11" />
+            </svg>
+            Activar el sonido de los llamados
+          </button>
+        )}
         <Reloj />
       </header>
 
@@ -93,20 +107,6 @@ export function Sala() {
         })}
       </footer>
 
-      {!sonido && (
-        <button
-          className="sala__sonido"
-          onClick={() => {
-            activarSonido();
-            setSonido(true);
-          }}
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M4 9v6h4l5 4V5L8 9zM16 9a4 4 0 010 6M18.5 6.5a8 8 0 010 11" />
-          </svg>
-          Activar el sonido de los llamados
-        </button>
-      )}
     </div>
   );
 }

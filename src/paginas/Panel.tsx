@@ -70,7 +70,7 @@ export function Panel() {
                   <div key={h.hora} className="barras__col">
                     <span className="barras__valor cifra">{h.turnos || ""}</span>
                     <span className="barras__barra" style={{ height: `${(h.turnos / maxHora) * 100}%` }} />
-                    <span className="barras__hora">{h.hora > 12 ? h.hora - 12 : h.hora}{h.hora >= 12 ? "p" : "a"}</span>
+                    <span className="barras__hora">{h.hora % 12 || 12}{h.hora >= 12 ? "p" : "a"}</span>
                   </div>
                 ))}
               </div>

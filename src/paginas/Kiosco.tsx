@@ -91,7 +91,7 @@ export function Kiosco() {
               </div>
             </dl>
             <p className="tiquete__pie">
-              Sacado a las {hora(tiquete.turno.creado)}. Esté pendiente de la pantalla de la sala.
+              Esté pendiente de la pantalla de la sala. Sacado a las {hora(tiquete.turno.creado)}
             </p>
             <p className="tiquete__corte" aria-hidden="true" />
             <button className="boton boton--claro" onClick={() => setTiquete(null)}>

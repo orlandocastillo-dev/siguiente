@@ -159,7 +159,7 @@ function Puesto({ numero, cambiar }: { numero: number; cambiar: () => void }) {
               <span>min por persona</span>
             </div>
           </div>
-          <p className="nota">Atajos: N llama al siguiente, R vuelve a llamar.</p>
+          <p className="nota puesto__atajos">Atajos: N llama al siguiente, R vuelve a llamar.</p>
         </aside>
       </main>
     </div>
