@@ -4,7 +4,7 @@ Un sistema de turnos para una oficina de atención, como los de los bancos o las
 
 Lo hice para practicar estado compartido en tiempo real: cuatro pantallas que tienen que ver exactamente la misma fila sin pisarse.
 
-**Demo:** https://siguiente.vercel.app
+**Demo:** https://siguiente-kappa.vercel.app
 
 ## Cómo probarlo
 
